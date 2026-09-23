@@ -41,7 +41,7 @@ AML-аналитик
 
 Обязательные AML-правила проходят через deterministic-контур независимо от ML.
 
-## 4. Component Diagram
+## 4. Component Diagram для Review Ranking Service
 Диаграмма представлена в папке Diagrams
 
 ## 5. Decision Guardrail
