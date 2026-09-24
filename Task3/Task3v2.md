@@ -626,6 +626,12 @@ Fallback необходим при:
 
 ---
 
-22. Trust Boundaries и безопасность
+## 22. Trust Boundaries и безопасность
 
-Boundary| Угроза| Мера за
+| Boundary | Угроза | Мера защиты |
+|---|---|---|
+| T1. Транзакционные системы → AI/AML | Утечка банковской тайны и ПДн | mTLS, service identity, RBAC/ABAC, шифрование, минимизация данных, аудит |
+| T2. Внешние сигналы → AI/AML | Подмена или недостоверность внешнего источника | Allowlist, provenance, schema validation, ограниченные права |
+| T3. Клиентский документ → Document AI | Вредоносный файл или prompt/content injection | Sandbox, AV scanning, изоляция, валидация результата |
+| T4. Документ → Financial Extraction | Подмена числовых данных | Provenance, source reference, cross-document validation |
+| T5. Model Artifact → Runtime | Подмена модели | Подпись артефакта, контроль версии, проверка целостности, доверенный registry |
