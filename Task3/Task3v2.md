@@ -268,11 +268,17 @@ Review Queue
 Например:
 
 DWH
+
  ↓
+ 
 Feature Builder
+
  ↓
+ 
 Ranking Model
+
  ↓
+ 
 Evaluation
 
 Batch используется для:
