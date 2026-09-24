@@ -927,12 +927,12 @@ AML
                  ┌─────────────────┐
                  │ Business Rules  │
                  └────────┬────────┘
-                          │
-                    Output Contract
-                          │
+                                │
+                           Output Contract
+                                     │
           ┌───────────────┴───────────────┐
-          │                               │
-   Model Version A                  Model Version B
+          │                                                    │
+   Model Version A                                      Model Version B
 
 Необходимо стандартизировать:
 
