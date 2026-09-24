@@ -769,12 +769,19 @@ Pilot
 Новый процесс:
 
 Rules
+
    ↓
+   
 35 000 операций
+
    ↓
+   
 ML Ranking
+
    ↓
+   
 10 000 операций
+
    ↓
 Human Review
 
